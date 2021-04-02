@@ -1,0 +1,48 @@
+
+body {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    background-color: #162a3c;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 0;
+    padding: 1rem;
+    width: 300px;
+}
+
+button[type="submit"] {
+    background-color: #444;
+    width: 150px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+form {
+    margin: 1rem 0;
+}
+
+.todo {
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3ms ease-in-out;
+}
+
+.todo button {
+    background-color: #9a1515;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-left: 10px;
+}
